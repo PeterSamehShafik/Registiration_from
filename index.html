@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <title>Reg Form</title>
+</head>
+
+<body style="font-weight: bold; ">
+    <fieldset style="background-color: #416fec; ">
+        <legend style="background-color: #9b3729; color: #ffb3b3;">Personal Data </legend>
+        <br>
+        <form>
+            <fieldset style="background-color: #e2e05c;">
+                <legend style="background-color: #f35641; padding-top: 40; padding-bottom: 40; color: #ffcbcb;">
+                    Your-Name</legend>
+                <table style="font-weight: bold;">
+                    <tbody>
+                        <tr>
+                            <td><label for="fName">First Name</label></td>
+                            <td>:</td>
+                            <td><input type="text" name="firstName" id="fName" placeholder="ex peter" required>*</td>
+                        <tr>
+                            <td><label for="fName">Last Name</label></td>
+                            <td>:</td>
+                            <td><input type="text" name="lastName" id="lName" placeholder="ex sameh" required>*</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+            <br><br><br>
+            <table style="font-weight: bold;">
+                <tr>
+                    <td><label for="phone">Your Phone</label></td>
+                    <td>:</td>
+                    <td><input type="number" name="phone" id="phone"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td>:</td>
+                    <td><input type="email" name="email" id="email" required>*</td>
+                </tr>
+                <tr>
+                    <td><label for="passwrod">Passwrod</label></td>
+                    <td>:</td>
+                    <td><input type="password" name="passwrod" id="passwrod" minlength="8"></td>
+                </tr>
+                <tr>
+                    <td><label for="repasswrod">Re-Passwrod</label></td>
+                    <td>:</td>
+                    <td><input type="password" name="repasswrod" id="repasswrod" minlength="8"></td>
+                </tr>
+            </table>
+            <br><br><br>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">male</label>
+            <br>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">female</label>
+            <br><br>
+            <input type="checkbox" name="status" id="HTML" value="HTML">
+            <label for="HTML">HTML</label>
+            <br>
+            <input type="checkbox" name="status" id="CSS" value="CSS">
+            <label for="CSS">CSS</label>
+            <br>
+            <input type="checkbox" name="status" id="JS" value="JS">
+            <label for="JS">Javascript</label>
+            <br><br>
+            <select name="faculty">
+                <option selected disabled hidden>--Select Your faculty--</option>
+                <optgroup label="ASU">
+                    <option value="FOEASU">Engineering</option>
+                    <option value="FOCSASU">Computer Science</option>
+                    <option value="FOPASU">Pharmacy</option>
+                </optgroup>
+                <optgroup label="CU">
+                    <option value="FOECU">Engineering</option>
+                    <option value="FOCSCU">Computer Science</option>
+                    <option value="FOPCU">Pharmacy</option>
+                </optgroup>
+            </select>
+            <br>
+            <input type="image" src="img/sub2.png" alt="sumbit" width="90">
+
+            <!-- Borders problem -->
+            <!-- <button type="submit"> <img src="img/sub2.png" alt="sumbit" style="width: 90;"></button> -->
+
+            <!-- Size & Borders Problem -->
+            <!-- <button style="background-image: url(img/sub2.png); width: 90; height: 44;"></button> -->
+
+        </form>
+    </fieldset>
+</body>
+
+</html>
